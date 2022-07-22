@@ -7,9 +7,10 @@ public class LevelManager : MonoBehaviour
 
     public static LevelManager sharedInstance;  //Creamos el Singleton.
 
-    public List<LevelBlock1> allTheLevelBlocks = new List<LevelBlock1>();
+    public List<LevelBlock> allTheLevelBlocks = new List<LevelBlock>();
+    
 
-    public List<LevelBlock1> currentLevelBlocks = new List<LevelBlock1>();
+    public List<LevelBlock> currentLevelBlocks = new List<LevelBlock>();
 
     public Transform levelStartPosition;
 
