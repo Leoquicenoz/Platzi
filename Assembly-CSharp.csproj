@@ -58,6 +58,7 @@
     <Compile Include="Assets\Scripts\KillZone.cs" />
     <Compile Include="Assets\Scripts\LevelManager.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\ExitZone.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
